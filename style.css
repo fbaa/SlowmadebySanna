@@ -58,6 +58,9 @@ img{
   flex-direction: column;
   margin: 10px;
 }
+.menybox img:hover{
+  box-shadow: 0 4px 5px 0 rgba(0, 0, 0, 0.2), 0 5px 10px 0 rgba(0, 0, 0, 0.19);
+}
 .inforuta{
   width: 400px;
   margin: auto;
@@ -99,6 +102,9 @@ img{
 .shopitem{
   margin: 10px;
 }
+.shopitem img:hover{
+  box-shadow: 0 4px 5px 0 rgba(0, 0, 0, 0.2), 0 5px 10px 0 rgba(0, 0, 0, 0.19);
+}
 .objekttext{
   width: 545px;
   margin: auto;
@@ -107,13 +113,15 @@ img{
 .objekt{
   display: flex;
   margin: auto;
-  width: 600px;
-  justify-content: center;
+  width: 545px;
+  justify-content: flex-start;
+  flex-wrap: wrap;
 }
 .objekt img{
   width: 200px;
   height:200px;
   margin: 10px;
+  margin-left: 0px;
 }
 .instawrap{
   display: flex;
@@ -158,6 +166,7 @@ img{
   }
   .instawrap{
     width: 90%;
+    margin: auto;
   }
 
 
