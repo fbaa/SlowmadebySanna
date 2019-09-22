@@ -166,7 +166,7 @@ img{
   }
   .instawrap{
     width: 90%;
-    margin: auto;
+    justify-content: center;
   }
 
 
