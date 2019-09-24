@@ -41,7 +41,7 @@ img{
 .toppen{
   width: 100%;
   height: 400px;
-  background-image:url(beskurenpensel.png);
+  background-image:url("pictures/beskurenpensel.png");
   background-size: cover;
   margin: auto;
   display: flex;
