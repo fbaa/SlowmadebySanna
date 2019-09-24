@@ -62,10 +62,37 @@ img{
 .menyord h3{
   margin-bottom: unset;
 }
+.dropdown{
+  position: relative;
+  display: inline-block;
+}
+.dropdowncontent{
+  display: none;
+  position: absolute;
+  background-color: #cfe2e2;
+  width: 100px;
+  box-shadow: 0px 4px 5px 0px rgba(0,0,0,0.2);
+  padding: 4px 10px;
+  z-index: 1;
+}
+.dropdowncontent a{
+  color: #0a1010;
+  font-family: Helvetica;
+  text-align: left;
+  font-weight: 200;
+}
+.dropdown:hover .dropdowncontent{
+  display: block;
+  flex-direction: column;
+}
+.dropdowncontent a:hover{
+  font-weight: 400;
+}
 .meny2{
   display: flex;
   justify-content: center;
   margin: 20px auto;
+  margin-top: 55px;
   flex-wrap: wrap;
 }
 .menybox{
@@ -163,7 +190,7 @@ img{
   width:calc(100% - 2px);
 }
 
-@media (max-width: 375px) {
+@media (max-width: 768px) {
   .toppen{
     width: 100%;
   }
