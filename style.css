@@ -135,6 +135,7 @@ img{
   align-items: center;
   flex-wrap: wrap-reverse;
   margin: auto;
+  max-width: 1400px;
 }
 .portfbild{
   margin: 10px;
