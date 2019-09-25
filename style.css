@@ -201,9 +201,11 @@ img{
   }
   .meny2{
     flex-direction: column;
+    max-width: min-content;
   }
   .portf{
     flex-direction: column;
+    max-width: min-content;
   }
   .objekttext{
     width: 95%;
